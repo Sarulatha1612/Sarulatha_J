@@ -817,6 +817,39 @@ section,
   color: var(--accent-color);
   line-height: 0;
 }
+.ag-courses_box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.ag-courses_item {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    width: 250px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.ag-courses_item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+.ag-courses-item_link {
+    text-decoration: none;
+}
+
+.ag-courses-item_title h2 {
+    color: black;
+    font-size: 20px;
+    margin: 0;
+}
+
+
 
 /*--------------------------------------------------------------
 # Resume Section
